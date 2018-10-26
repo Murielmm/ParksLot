@@ -1,0 +1,94 @@
+{
+  "MaxParking": 60,
+  "Park": [
+    {
+      "ParkSpace": {
+        "Id": 1,
+        "VehicleType": "M",
+        "Vehicles": [
+          {
+            "Plate": "NNN-1111",
+            "Cpf": "12213123213213",
+            "Name": "sfsdfsdf",
+            "Phone": "2132131",
+            "Time": "2018-10-25 11:40:17.012855"
+          },
+          {
+            "Plate": "NNN-2222",
+            "Cpf": "456.654.897.11",
+            "Name": "asdasda",
+            "Phone": "12321433",
+            "Time": "2018-10-25 11:41:17.660860"
+          }
+        ]
+      }
+    },
+    {
+      "ParkSpace": {
+        "Id": 2,
+        "VehicleType": "A",
+        "Vehicles": [
+          {
+            "Plate": "MMM-1111",
+            "Cpf": "23423423",
+            "Name": "sresfs",
+            "Phone": "345435",
+            "Time": "2018-10-25 11:35:09.134623"
+          }
+        ]
+      }
+    },
+    {
+      "ParkSpace": {
+        "Id": 3,
+        "VehicleType": "M",
+        "Vehicles": [
+          {
+            "Plate": "AWD-4559",
+            "Cpf": "114.922.299-97",
+            "Name": "Dênis Bianchinni Junior",
+            "Phone": "99158-7117",
+            "Time": "2018-10-25 16:13:10.200509"
+          },
+          {
+            "Plate": "MDB-9644",
+            "Cpf": "922.114.299-97",
+            "Name": "Eduardo Jaceguai Costa",
+            "Phone": "99158-7117",
+            "Time": "2018-10-25 16:15:10.200509"
+          }
+        ]
+      }
+    },
+    {
+      "ParkSpace": {
+        "Id": 4,
+        "VehicleType": "A",
+        "Vehicles": [
+          {
+            "Plate": "FFF-0902",
+            "Cpf": "912.348.234-22",
+            "Name": "Matheus ",
+            "Phone": "(47) 912245-7272",
+            "Time": "2018-10-25 11:56:09.001547"
+          }
+        ]
+      }
+    },
+    {
+      "ParkSpace": {
+        "Id": 5,
+        "VehicleType": "A",
+        "Vehicles": [
+          {
+            "Plate": "MRX-9554",
+            "Cpf": "299.922.114-79",
+            "Name": "Muriel Matheus Malmgren",
+            "Phone": "99158-7117",
+            "Time": "2018-10-25 08:10:10.000000"
+          }
+        ]
+      }
+    }
+  ]
+}
