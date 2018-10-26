@@ -4,6 +4,7 @@ Gerenciamento de estacionamento - Projeto Matemática Discreta e Lógica - Pytho
 Solicitação:
 
 Voce foi contratado para desenvolver parte do sistema de controle das garagens Park´a´lot. O sistema deve registrar o movimento dos veiculos que entram no prédio para estacionar. O prédio possui um número limitado de vagas (60) que podem ser preenchidas por dois tipos de veículos:
+
 a) motocicletas ( 2 ocupam uma vaga );
 b) automoveis ( 1 ocupa uma vaga );
 
