@@ -5,6 +5,8 @@ import Menu
 Park = Park.park()
 Menu = Menu.menu()
 
+print("\nBem Vindo ao ParksLot!\n")
+
 option = Menu.displayMainMenu()
 
 while option != 0:
