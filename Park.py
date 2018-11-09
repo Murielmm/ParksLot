@@ -146,6 +146,7 @@ class park:
         print("\nSUCESSO!")
 
     def listAllSpaces(self):
+        fmt = '%Y-%m-%d %H:%M:%S.%f'
         park_data = self.getParkData()
 
         for park_line in park_data['Park']:
@@ -153,6 +154,10 @@ class park:
             print('Tipo Veículo(s) na vaga:', 'Motocicleta' if park_line['ParkSpace']['VehicleType'] == 'M' else 'Automóvel')
 
             for vehicle in park_line['ParkSpace']['Vehicles']:
-                print('Placa:', vehicle['Plate'], '| CPF:', vehicle['Cpf'], '| Nome:', vehicle['Name'],
-                      '| Telefone:', vehicle['Phone'], '| Hora Entrada:', vehicle['Time'][0:5])
+                print('Placa:', vehicle['Plate'],
+                      '| CPF:', vehicle['Cpf'],
+                      '| Nome:', vehicle['Name'],
+                      '| Telefone:', vehicle['Phone'],
+                      '| Data Entrada: {:%d/%m/%Y}'.format(datetime.strptime(vehicle['Time'], fmt)),
+                      'ás {:%H:%M}'.format(datetime.strptime(vehicle['Time'], fmt)))
         print("\n")
